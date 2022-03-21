@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: -webkit-repeating-linear-gradient(to bottom,rgb(23, 156, 218),rgb(233, 38, 119));
+    
+}
+html{
+    height: 100%;
+}
+head{
+    background: linear-gradient(to bottom,#33ccff 0%,#ff99cc 100%);
+    background-repeat: no-repeat;
+   
+}
+body{
+    padding-bottom: 0%;
+    background: linear-gradient(to bottom,#33ccff 0%,#ff99cc 100%);
+    background-repeat: no-repeat;
+}
+.pic
+{
+    display: inline;
+    float: left;
+    margin:75px 15px 0px 10px;
+    justify-content: left;
+}
+.about
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.cob
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.academics
+{
+    text-align: center;
+    margin-top: 100px;
+}
