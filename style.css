@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    /*background-color: antiquewhite;*/
+}
+
+#bodyheader {
+    height: 50vh;
+    opacity: 0.8;
+    background-image: url('backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/*removing list styles*/
+
+.navi {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+
+/*making list items horizontal*/
+
+.navi li {
+    margin: 0px 8px 8px 0px;
+    display: inline;
+    font-size: larger;
+    font-weight: bolder
+}
+
+
+/*changing color of list elements*/
+
+.navi li a {
+    color: rgb(73, 252, 32);
+    text-decoration: none;
+}
+
+
+/*to change color while hovering*/
+
+.navi li a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.5s;
+}
+
+
+/*removing list styles*/
+
+.nav2 {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+
+/*making list items horizontal*/
+
+.nav2 li {
+    margin: 0px 8px 8px 0px;
+    display: inline;
+    font-size: larger;
+    font-weight: bolder
+}
+
+
+/*changing color of list elements*/
+
+.nav2 li a {
+    color: rgb(52, 76, 232);
+    text-decoration: none;
+}
+
+
+/*to change color while hovering*/
+
+.nav2 li a:hover {
+    color: rgb(201, 66, 98);
+    text-decoration: underline;
+    transition: color 0.5s;
+}
+
+#namearea {
+    margin-top: 5%;
+    font-style: italic;
+    font-size: larger;
+}
+
+.name {
+    letter-spacing: 0.1rem;
+    color: antiquewhite;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+}
+
+.icons li a i {
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.icons li a i:hover {
+    box-shadow: 0px 0px 5px 4px red;
+}
+
+.icons2 li a i {
+    padding: 30px;
+    border-radius: 80%;
+}
+
+.icons2 li a i:hover {
+    box-shadow: 0px 0px 5px 4px rgb(225, 200, 36);
+}
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#myimage {
+    height: 20rem;
+    width: 15rem;
+    margin: auto;
+    /*to bring image to center*/
+    margin-top: -15vh;
+}
+
+#myimage img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.para {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+
+.parainner {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+section {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:target {
+    background-color: light rgb(67, 174, 67);
+}
+
+.heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 20px auto;
+    font-weight: 400;
+}
+
+.heading span {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.displayskills {
+    width: 50%;
+    height: 100px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills-in-left {
+    width: 7rem;
+    margin-right: auto;
+}
+
+.skills-in-right {
+    width: 7rem;
+    margin-left: auto;
+}
+
+.skill-list {
+    width: 7rem;
+    height: 2.4rem;
+    background-color: rgb(119, 136, 153);
+    border-radius: 0.8rem;
+    border: 2px solid black;
+}
+
+.skill-list span {
+    font-weight: 900;
+    color: rgb(239, 223, 178);
+    font-family: cursive
+}
+
+.matter {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(20, 4, 82);
+    color: rgb(244, 228, 198);
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: auto;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.coding {
+    margin-top: 4rem;
+}
+
+.head {
+    color: white;
+    text-align: center;
+}
+
+.images {
+    padding-top: 4px;
+    padding-left: 30%;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    font-style: italic;
+}
+
+.codingplats {
+    margin-bottom: 2rem;
+}
+
+.experience {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.cert {
+    float: right;
+}
+
+.exp-cert-wrap {
+    display: flex
+}
+
+.cert {
+    padding-left: 15rem;
+}
+
+.achieve {
+    color: white;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.education {
+    padding-top: 40px;
+    width: 100%;
+    height: 75vh;
+    padding-left: 0px;
+    padding-right: 0px;
+}
